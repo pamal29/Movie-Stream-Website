@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+
+<head>
+  <title>Login Page</title>
+  <style>
+
+    body {
+      margin: 0;
+      padding: 0;
+      background-color: #121318;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      background-image: url("pictures/login-bg.jpg");
+    }
+
+    .login-container {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100%;
+      width: 100%;
+    }
+
+    .login-box {
+      background-color: #151414;
+      padding: 40px;
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      width: 300px;
+    }
+
+    h2 {
+      text-align: center;
+      margin-bottom: 30px;
+      color: #333;
+      color: white;
+    }
+
+    .input-group {
+      margin-bottom: 20px;
+    }
+
+    label {
+      font-size: 14px;
+      margin-bottom: 5px;
+      display: block;
+      color: #555;
+      color: white;
+    }
+
+    input[type="text"], input[type="password"] {
+      width: 100%;
+      padding: 10px;
+      font-size: 16px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      box-sizing: border-box;
+    }
+
+    .login-btn {
+      width: 100%;
+      padding: 10px;
+      background-color: #28ac2d;
+      color: white;
+      font-size: 16px;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+
+    .login-btn:hover {
+      background-color: #0dd51f;
+    }
+
+  </style>
+</head>
+
+
+<body>
+    <div class="login-container">
+      <div class="login-box">
+        <h2>Login</h2>
+        <form action="#">
+          <!-- Username input -->
+          <div class="input-group">
+            <label for="username">Username</label>
+            <input type="text" id="username" name="username" placeholder="Enter your username" required>
+          </div>
+          <!-- Password input -->
+          <div class="input-group">
+            <label for="password">Password</label>
+            <input type="password" id="password" name="password" placeholder="Enter your password" required>
+          </div>
+          <!-- Submit button -->
+          <button class="login-btn">Login</button>
+        </form>
+      </div>
+    </div>
+
+  
+</body>
+</html>
