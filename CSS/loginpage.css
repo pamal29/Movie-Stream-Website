@@ -6,7 +6,7 @@ body {
     justify-content: center;
     align-items: center;
     height: 100vh;
-    /*background-image: url("pictures/login-bg.jpg");*/
+    background-image: url("../pictures/login-bg.jpg");
   }
 
   .login-container {
